@@ -15,13 +15,13 @@ faiss-cpu==1.12.0
 sentence-transformers==2.2.2
 
 # PyTorch (CPU-only for Render deployment)
-torch==2.1.0+cpu
-torchvision==0.16.0+cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 # Transformers and ML
-transformers==4.36.0
-accelerate==0.24.1
+transformers==4.45.0
+accelerate==0.30.0
 
 # Image processing
 Pillow==10.1.0
