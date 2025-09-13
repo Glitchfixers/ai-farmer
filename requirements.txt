@@ -11,7 +11,7 @@ langchain-community==0.0.10
 groq==0.4.1
 
 # Vector database and embeddings
-faiss-cpu==1.7.4
+faiss-cpu==1.12.0
 sentence-transformers==2.2.2
 
 # PyTorch (CPU-only for Render deployment)
@@ -50,6 +50,3 @@ requests==2.31.0
 
 # Data validation
 pydantic==2.5.0
-
-# Additional utilities
-pathlib2==2.3.7
