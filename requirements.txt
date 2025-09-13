@@ -1,21 +1,55 @@
+# Core FastAPI and server
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# LangChain and AI dependencies
 langchain==0.1.0
 langchain-groq==0.0.1
 langchain-huggingface==0.0.1
 langchain-community==0.0.10
-faiss-cpu==1.11.0
 groq==0.4.1
+
+# Vector database and embeddings
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+
+# PyTorch (CPU-only for Render deployment)
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Transformers and ML
 transformers==4.36.0
-torch==2.5.1
-torchvision==0.16.0
-pillow==10.1.0
-requests==2.31.0
-pydantic==2.5.0
+accelerate==0.24.1
+
+# Image processing
+Pillow==10.1.0
+
+# Document processing
 PyPDF2==3.0.1
 python-docx==1.1.0
-pandas==2.1.4
 PyMuPDF==1.23.8
-coqui-tts==0.22.0
+openpyxl==3.1.2
+
+# Data processing
+pandas==2.1.4
+numpy==1.24.3
+
+# Text-to-Speech
+TTS==0.22.0
+
+# Voice transcription
+openai-whisper==20231117
+
+# Database and storage
 supabase==2.3.0
-python-multipart==0.0.6
+
+# HTTP requests
+requests==2.31.0
+
+# Data validation
+pydantic==2.5.0
+
+# Additional utilities
+pathlib2==2.3.7
